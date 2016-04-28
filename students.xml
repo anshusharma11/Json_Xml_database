@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="student.xsd">
+  <student>
+    <SSN>111-00-1111</SSN>
+    <Name>Rylan</Name>
+    <DOB>1968-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Both</Type>
+    <BuildingCode>
+      <building ref="CFX"/>
+      <building ref="JEP"/>
+    </BuildingCode>
+    <phone>213-740-1111,213-740-1112</phone>
+  </student>
+  <student>
+    <SSN>111-00-2222</SSN>
+    <Name>Joshua</Name>
+    <DOB>1970-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Both</Type>
+    <BuildingCode>
+      <building ref="RTH"/>
+      <building ref="OHE"/>
+    </BuildingCode>
+    <phone>213-740-2222</phone>
+  </student>
+  <student>
+    <SSN>111-00-3333</SSN>
+    <Name>Allen</Name>
+    <DOB>1969-APR-01</DOB>
+    <Gender>F</Gender>
+    <Type>Both</Type>
+    <BuildingCode>
+      <building ref="RTH"/>
+    </BuildingCode>
+    <phone>213-740-3333</phone>
+  </student>
+  <student>
+    <SSN>111-00-4444</SSN>
+    <Name>Aidan</Name>
+    <DOB>1985-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Both</Type>
+    <BuildingCode>
+      <building ref="JHH"/>
+      <building ref="REG"/>
+    </BuildingCode>
+    <phone>213-740-4444,213-740-4445</phone>
+  </student>
+  <student>
+    <SSN>111-00-5555</SSN>
+    <Name>Aiden</Name>
+    <DOB>1982-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Both</Type>
+    <BuildingCode>
+      <building ref="LVY"/>
+      <building ref="VKC"/>
+      <building ref="WPH"/>
+      <building ref="KOH"/>
+    </BuildingCode>
+    <phone>213-740-5555</phone>
+  </student>
+  <student>
+    <SSN>111-00-6666</SSN>
+    <Name>Barak</Name>
+    <DOB>1979-APR-01</DOB>
+    <Gender>F</Gender>
+    <Type>Master</Type>
+    <phone>213-740-6666</phone>
+  </student>
+  <student>
+    <SSN>111-00-7777</SSN>
+    <Name>Basil</Name>
+    <DOB>1978-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Master</Type>
+    <BuildingCode>
+      <building ref="LVY"/>
+      <building ref="VKC"/>
+      <building ref="WPH"/>
+    </BuildingCode>
+    <phone>213-740-7777</phone>
+  </student>
+  <student>
+    <SSN>111-00-8888</SSN>
+    <Name>Cayden</Name>
+    <DOB>1975-APR-01</DOB>
+    <Gender>F</Gender>
+    <Type>Master</Type>
+    <BuildingCode>
+      <building ref="RTH"/>
+      <building ref="SAL"/>
+      <building ref="OHE"/>
+    </BuildingCode>
+    <phone>213-740-8888,213-740-8889</phone>
+  </student>
+  <student>
+    <SSN>111-00-9999</SSN>
+    <Name>Brendon</Name>
+    <DOB>1972-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Master</Type>
+    <BuildingCode>
+      <building ref="RTH"/>
+      <building ref="SAL"/>
+    </BuildingCode>
+    <phone>213-740-9999</phone>
+  </student>
+  <student>
+    <SSN>111-00-0000</SSN>
+    <Name>Nate</Name>
+    <DOB>1973-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Master</Type>
+    <phone>213-740-0000</phone>
+  </student>
+  <student>
+    <SSN>111-11-1111</SSN>
+    <Name>Hannah</Name>
+    <DOB>1965-APR-01</DOB>
+    <Gender>F</Gender>
+    <Type>Master</Type>
+    <BuildingCode>
+      <building ref="RTH"/>
+      <building ref="SAL"/>
+      <building ref="OHE"/>
+    </BuildingCode>
+    <phone>213-741-1111</phone>
+  </student>
+  <student>
+    <SSN>111-11-2222</SSN>
+    <Name>Zoe</Name>
+    <DOB>1962-APR-01</DOB>
+    <Gender>F</Gender>
+    <Type>Master</Type>
+    <BuildingCode>
+      <building ref="CFX"/>
+      <building ref="STU"/>
+      <building ref="BKS"/>
+    </BuildingCode>
+    <phone>213-741-2222</phone>
+  </student>
+  <student>
+    <SSN>111-11-3333</SSN>
+    <Name>Alexis</Name>
+    <DOB>1963-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Phd</Type>
+    <phone>213-741-3333</phone>
+  </student>
+  <student>
+    <SSN>111-11-4444</SSN>
+    <Name>Madison</Name>
+    <DOB>1975-APR-01</DOB>
+    <Gender>F</Gender>
+    <Type>Phd</Type>
+    <BuildingCode>
+      <building ref="KOH"/>
+      <building ref="CFX"/>
+      <building ref="SAL"/>
+    </BuildingCode>
+    <phone>213-741-4444</phone>
+  </student>
+  <student>
+    <SSN>111-11-5555</SSN>
+    <Name>Adalgisa</Name>
+    <DOB>1976-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Phd</Type>
+    <BuildingCode>
+      <building ref="KOH"/>
+    </BuildingCode>
+    <phone>213-741-5555</phone>
+  </student>
+  <student>
+    <SSN>111-11-6666</SSN>
+    <Name>Cora</Name>
+    <DOB>1977-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Phd</Type>
+    <BuildingCode>
+      <building ref="CFX"/>
+      <building ref="KOH"/>
+    </BuildingCode>
+    <phone>213-741-6666,213-741-6667</phone>
+  </student>
+  <student>
+    <SSN>111-11-7777</SSN>
+    <Name>Adalia</Name>
+    <DOB>1982-APR-01</DOB>
+    <Gender>F</Gender>
+    <Type>Phd</Type>
+    <phone>213-741-7777</phone>
+  </student>
+  <student>
+    <SSN>111-11-8888</SSN>
+    <Name>Ava</Name>
+    <DOB>1983-APR-01</DOB>
+    <Gender>F</Gender>
+    <Type>Phd</Type>
+    <BuildingCode>
+      <building ref="RTH"/>
+      <building ref="OHE"/>
+    </BuildingCode>
+    <phone>213-741-8888,213-741-8889</phone>
+  </student>
+  <student>
+    <SSN>111-11-9999</SSN>
+    <Name>Celia</Name>
+    <DOB>1986-APR-01</DOB>
+    <Gender>M</Gender>
+    <Type>Phd</Type>
+    <BuildingCode>
+      <building ref="RTH"/>
+    </BuildingCode>
+    <phone>213-741-9999</phone>
+  </student>
+  <student>
+    <SSN>111-11-0000</SSN>
+    <Name>Zaida</Name>
+    <DOB>1983-APR-01</DOB>
+    <Gender>F</Gender>
+    <Type>Phd</Type>
+    <BuildingCode>
+      <building ref="SAL"/>
+      <building ref="EEB"/>
+    </BuildingCode>
+    <phone>213-741-0000</phone>
+  </student>
+</students>

@@ -1,0 +1,228 @@
+{"students": {
+  "student": [
+    {
+      "BuildingCode": {"building": [
+        {"ref": "CFX"},
+        {"ref": "JEP"}
+      ]},
+      "DOB": "1968-APR-01",
+      "Gender": "M",
+      "Name": "Rylan",
+      "SSN": "111-00-1111",
+      "Type": "Both",
+      "phone": "213-740-1111,213-740-1112"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "RTH"},
+        {"ref": "OHE"}
+      ]},
+      "DOB": "1970-APR-01",
+      "Gender": "M",
+      "Name": "Joshua",
+      "SSN": "111-00-2222",
+      "Type": "Both",
+      "phone": "213-740-2222"
+    },
+    {
+      "BuildingCode": {"building": {"ref": "RTH"}},
+      "DOB": "1969-APR-01",
+      "Gender": "F",
+      "Name": "Allen",
+      "SSN": "111-00-3333",
+      "Type": "Both",
+      "phone": "213-740-3333"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "JHH"},
+        {"ref": "REG"}
+      ]},
+      "DOB": "1985-APR-01",
+      "Gender": "M",
+      "Name": "Aidan",
+      "SSN": "111-00-4444",
+      "Type": "Both",
+      "phone": "213-740-4444,213-740-4445"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "LVY"},
+        {"ref": "VKC"},
+        {"ref": "WPH"},
+        {"ref": "KOH"}
+      ]},
+      "DOB": "1982-APR-01",
+      "Gender": "M",
+      "Name": "Aiden",
+      "SSN": "111-00-5555",
+      "Type": "Both",
+      "phone": "213-740-5555"
+    },
+    {
+      "DOB": "1979-APR-01",
+      "Gender": "F",
+      "Name": "Barak",
+      "SSN": "111-00-6666",
+      "Type": "Master",
+      "phone": "213-740-6666"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "LVY"},
+        {"ref": "VKC"},
+        {"ref": "WPH"}
+      ]},
+      "DOB": "1978-APR-01",
+      "Gender": "M",
+      "Name": "Basil",
+      "SSN": "111-00-7777",
+      "Type": "Master",
+      "phone": "213-740-7777"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "RTH"},
+        {"ref": "SAL"},
+        {"ref": "OHE"}
+      ]},
+      "DOB": "1975-APR-01",
+      "Gender": "F",
+      "Name": "Cayden",
+      "SSN": "111-00-8888",
+      "Type": "Master",
+      "phone": "213-740-8888,213-740-8889"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "RTH"},
+        {"ref": "SAL"}
+      ]},
+      "DOB": "1972-APR-01",
+      "Gender": "M",
+      "Name": "Brendon",
+      "SSN": "111-00-9999",
+      "Type": "Master",
+      "phone": "213-740-9999"
+    },
+    {
+      "DOB": "1973-APR-01",
+      "Gender": "M",
+      "Name": "Nate",
+      "SSN": "111-00-0000",
+      "Type": "Master",
+      "phone": "213-740-0000"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "RTH"},
+        {"ref": "SAL"},
+        {"ref": "OHE"}
+      ]},
+      "DOB": "1965-APR-01",
+      "Gender": "F",
+      "Name": "Hannah",
+      "SSN": "111-11-1111",
+      "Type": "Master",
+      "phone": "213-741-1111"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "CFX"},
+        {"ref": "STU"},
+        {"ref": "BKS"}
+      ]},
+      "DOB": "1962-APR-01",
+      "Gender": "F",
+      "Name": "Zoe",
+      "SSN": "111-11-2222",
+      "Type": "Master",
+      "phone": "213-741-2222"
+    },
+    {
+      "DOB": "1963-APR-01",
+      "Gender": "M",
+      "Name": "Alexis",
+      "SSN": "111-11-3333",
+      "Type": "Phd",
+      "phone": "213-741-3333"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "KOH"},
+        {"ref": "CFX"},
+        {"ref": "SAL"}
+      ]},
+      "DOB": "1975-APR-01",
+      "Gender": "F",
+      "Name": "Madison",
+      "SSN": "111-11-4444",
+      "Type": "Phd",
+      "phone": "213-741-4444"
+    },
+    {
+      "BuildingCode": {"building": {"ref": "KOH"}},
+      "DOB": "1976-APR-01",
+      "Gender": "M",
+      "Name": "Adalgisa",
+      "SSN": "111-11-5555",
+      "Type": "Phd",
+      "phone": "213-741-5555"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "CFX"},
+        {"ref": "KOH"}
+      ]},
+      "DOB": "1977-APR-01",
+      "Gender": "M",
+      "Name": "Cora",
+      "SSN": "111-11-6666",
+      "Type": "Phd",
+      "phone": "213-741-6666,213-741-6667"
+    },
+    {
+      "DOB": "1982-APR-01",
+      "Gender": "F",
+      "Name": "Adalia",
+      "SSN": "111-11-7777",
+      "Type": "Phd",
+      "phone": "213-741-7777"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "RTH"},
+        {"ref": "OHE"}
+      ]},
+      "DOB": "1983-APR-01",
+      "Gender": "F",
+      "Name": "Ava",
+      "SSN": "111-11-8888",
+      "Type": "Phd",
+      "phone": "213-741-8888,213-741-8889"
+    },
+    {
+      "BuildingCode": {"building": {"ref": "RTH"}},
+      "DOB": "1986-APR-01",
+      "Gender": "M",
+      "Name": "Celia",
+      "SSN": "111-11-9999",
+      "Type": "Phd",
+      "phone": "213-741-9999"
+    },
+    {
+      "BuildingCode": {"building": [
+        {"ref": "SAL"},
+        {"ref": "EEB"}
+      ]},
+      "DOB": "1983-APR-01",
+      "Gender": "F",
+      "Name": "Zaida",
+      "SSN": "111-11-0000",
+      "Type": "Phd",
+      "phone": "213-741-0000"
+    }
+  ],
+  "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "xsi:schemaLocation": "student.xsd"
+}}
