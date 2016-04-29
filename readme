@@ -1,0 +1,93 @@
+ This application will make you familiar with spatial data types
+using Oracle11g, Oracle Spatial features, and Java (JDBC).
+You are required to write two Java programs to 1) store and 2) query your
+spatial database.
+Scenario:
+In case of fire happening in the campus, we need a system to keep track of all
+the fire hydrants, buildings and the buildings that are on fire. Each fire
+hydrant is represented as a point and each building is represented as a
+polygon.
+
+Input Files:
+1. Image file: MAP -­­ an 820x580 JPEG file that is an image of some area
+of SCU.
+2. Following input files:
+a). building.xy. Each building is represented by a 2D polygon. Col 1:
+building ID. Col 2: building name. Col3: number of vertices on the
+polygon. The numbers after column 3 are the coordinates of the vertices.
+They are ordered as , , , , ...., , . For example, a row: b1, PHA, 4, 100, 120,
+150, 130, 120, 200, 120, 220 represents a building with its building ID as
+"b1" and its name as "PHA". It has 4 vertices whose coordinates are (100,
+120),(150, 130), (120, 200) and (120, 220) respectively.
+b). firehydrant.xy. Col 1: firehydrantID Col2: x coordinate of the
+firehydrant location. Col3: y coordinate of the firehydrant location.
+c). firebuilding.txt. Col 1: firebuilding represents the building name,
+which is on fire.
+Required .sql files:
+It creates two .sql files:
+1. createdb.sql: This file  creates all required tables. In addition, it
+should include constraints, indexes, and any other DDL statements you might
+need for your application.
+2. dropdb.sql: This file  drops all tables and the other objects once
+created by your createdb.sql file.
+Required Java Programs:
+You are required to implement two Java programs:
+1. populate.java: This program should get the names of the input files as
+command line parameters and populate them into your database. It should be
+executed as:
+“> java populate building.xy firehydrant.xy firebuilding.txt”.
+Note that every time you run this program, it should remove the previous
+data in your tables; otherwise the tables will have redundant data.
+2. hw3.java: This program should provide a GUI, similar to figure 1, to query
+your database. The GUI should include:
+a) An 820x580 panel that shows the map when the application is started up.
+b) The tile of the main window should display your full name and your
+student ID.
+c) Text field (or Label) that shows the coordinates (x, y) of the current mouse
+location as it moves over the image. Please notice that the coordinates given in
+.xy files are based on the origin (0, 0) at the upper left corner of the image and
+(820, 580) at itslower right corner.
+d) 3 Check boxes that specify the feature types that we are currently
+interested in. Multiple feature types can be checked at the same time.
+They are called active feature types.
+e) 4 Radio buttons that specify the kind of query we are going to do.
+There are 4 kinds of queries: Whole Region, Range Query, Find neighbor
+Buildings Query, and Find closest fire hydrants query. Details are given later.
+Only one radio button can be checked at any moment.
+f) One button to submit the required query.
+g) One text field to display the SQL statements for the queries that has been
+submitted so far. Use incremental counter for the queries, and print the
+counter along with the SQL statement (e.g., “Query 1: select * from
+restaurants;”, “Query 2: select * from people where …”).
+Figure 1: GUI demonstration
+Queries:
+1. Whole Region. This is to display all the features of the active feature types
+in the whole map. They should be displayed in the following way:
+Table 1: Color Code for different types of features
+Feature Color Shape
+Buildings Yellow Polygon(outline, not solid region )
+FireHydrant Green Square(15X15pixels)
+FireBuildings Red Polygon(outline, not solid region)
+Graphical representation of Fire Hydrant, Buildings and Building on fire if
+checked should show up when we click the submit button.
+2. Range Query. When this radio button is checked, the user can draw a
+polygon in the map. After pushing the Submit Query button, only the features
+of the active feature types that are inside (or intersect with) the polygons are
+displayed. These features should be displayed in the same way as specified in
+Table 1. The user draws the polygon by clicking the left mouse button to
+select its vertices sequentially and then clicking the right mouse button to
+close the polygon. Red line segments on the screen should connect the
+vertices as they are being selected. When the Range Query radio button is
+unchecked, the selected polygon should disappear.
+3 Find neighbor Buildings. When this radio button is checked, the buildings
+on fire are displayed as Red polygons. You should also display the neighbor
+buildings in Yellow polygons. The neighbor buildings are the buildings that
+are located within 100 pixels. The people in those neighbor buildings also
+need to be evacuated to safe places.
+4 Find Closest Fire Hydrants. When this radio button is checked, the user
+could use click to specify arbitrary number of buildings that are on fire. The
+buildings are shown as red polygons and the closest hydrants are displayed
+as Green Squares. If there are multiple buildings on fire, two buildings on fire
+might have the same closest fire hydrant. The closest fire hydrants shown on
+the GUI will provide the firefighter essential information to locate and secure
+the water sources.
